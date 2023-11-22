@@ -1,0 +1,192 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+
+/* Estilos para la barra de navegación */
+
+.navbar .container-fluid {
+    background: radial-gradient(circle, rgba(141, 0, 255, 1) 0%, rgb(255, 255, 255) 100%);
+    max-width: 100%;
+    margin: 10px;
+    padding: 0px;
+    border: 2px solid rgb(187, 145, 221);
+    border-radius: 25px;
+}
+
+.dropdown-menu {
+    background-color: rgb(245, 161, 241);
+}
+
+
+/* Contenedor general para las recetas */
+
+.recetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* Alineación horizontal de las recetas */
+    gap: 20px;
+    /* Espacio entre las recetas */
+}
+
+
+/* Estilos para cada receta */
+
+.receta {
+    flex: 1 1 300px;
+    /* Ancho de cada receta */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Estilos para las imágenes dentro de las recetas */
+
+.recetas img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos para los títulos de las recetas */
+
+.recetas h4 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.recetas h4 strong {
+    color: #ff0000;
+    margin-bottom: 5px;
+}
+
+
+/* Estilos para los párrafos de las recetas */
+
+.recetas p {
+    display: block;
+    font-size: 1em;
+    color: #242424;
+    margin-top: 5%;
+    margin-bottom: 12px;
+    /* Ajuste el margen superior según sea necesario */
+}
+
+
+/*
+Apartado de Musculacion
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.musculacion {
+    background-color: rgb(137, 195, 241);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.musculacion h1,
+h2 {
+    color: #333;
+}
+
+.musculacion h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.musculacion p {
+    color: #555;
+}
+
+.musculacion section:last-child {
+    margin-bottom: 0;
+}
+
+.clases {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* Alineación horizontal de las recetas */
+    gap: 20px;
+    /* Espacio entre las recetas */
+}
+
+.calistenianav {
+    background: radial-gradient(circle, rgba(141, 0, 255, 1) 0%, rgb(255, 255, 255) 100%);
+    max-width: 5%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(187, 145, 221);
+    border-radius: 25px;
+}
+
+.info h2 {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 28px;
+    color: #333;
+}
+
+.info p {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 5%;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+
+/* footer sección*/
+
+.footer_section {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 20px;
+    font-weight: 500;
+}
+
+.footer_section p {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.footer_section a {
+    color: rgb(247, 226, 250)
+}
+
+
+/* Estilos para BOTON */
+
+.btn {
+    margin: 25px;
+}
